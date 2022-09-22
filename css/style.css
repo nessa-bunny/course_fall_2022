@@ -92,7 +92,7 @@ p {
 	color: #424551;
 }
 .main-content__list li{
-	background: url('../src/img/vector01.svg') left no-repeat;
+	background: url('../img/vector01.svg') left no-repeat;
 	line-height: 160%;
 	margin-bottom: 24px;
 	padding: 0px 0px 0px 24px;
