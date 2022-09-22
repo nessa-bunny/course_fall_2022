@@ -1,0 +1,99 @@
+/* ====================== ШРИФТИ =============================== */
+
+/*----------------- Підключення шрифтів ----------------------- */
+
+@import url('https://fonts.google.com/specimen/Lato?query=lato&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Regular.ttf");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Bold.ttf");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Black.ttf");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+	font-family:"Lato", serif;
+}
+
+.article__page {
+	width: 1920px;
+	height: auto;
+}
+.article__wrapper {
+	background-color: #fff;
+	width: 810px;
+	height: 1594px;
+	margin: 152px 765px 120px 345px;
+	/* border: solid 1px black; */
+}
+.header__article {
+}
+.article-header {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-top: 0;
+	margin-bottom: 92px;
+	/* or 60px */
+
+	/* display: flex; */
+	/* align-items: center; */
+}
+.main {
+}
+.content__main {
+}
+.main-content {
+}
+.main-content__img {
+	margin-bottom: 60px;
+}
+.text-main-content__bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 20px;
+}
+.main-content__text{
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 24px;
+}
+p {
+	margin-bottom: 20px;
+}
+
+.main-content__quote {
+	padding-left: 55px;
+	margin-bottom: 48px;
+	margin-top: 48px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+.main-content__list {
+	line-height: 160%;
+	color: #424551;
+}
+.main-content__list li{
+	background: url('../src/img/vector01.svg') left no-repeat;
+	line-height: 160%;
+	margin-bottom: 24px;
+	padding: 0px 0px 0px 24px;
+}
